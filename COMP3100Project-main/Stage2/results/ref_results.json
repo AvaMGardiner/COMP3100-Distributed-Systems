@@ -1,0 +1,323 @@
+{
+  "Turnaround time": {
+    "config12-long-med.xml": {
+      "ff": 2400,
+      "bf": 2397,
+      "ffq": 2802,
+      "bfq": 2630,
+      "wfq": 6880
+    },
+    "config12-med-alt.xml": {
+      "ff": 388,
+      "bf": 373,
+      "ffq": 813,
+      "bfq": 698,
+      "wfq": 3804
+    },
+    "config12-med-med.xml": {
+      "ff": 654,
+      "bf": 653,
+      "ffq": 893,
+      "bfq": 831,
+      "wfq": 4576
+    },
+    "config12-short-med.xml": {
+      "ff": 61,
+      "bf": 60,
+      "ffq": 106,
+      "bfq": 100,
+      "wfq": 677
+    },
+    "config16-long-high.xml": {
+      "ff": 3123,
+      "bf": 4674,
+      "ffq": 6536,
+      "bfq": 6666,
+      "wfq": 23972
+    },
+    "config16-long-med.xml": {
+      "ff": 2548,
+      "bf": 2562,
+      "ffq": 3997,
+      "bfq": 3778,
+      "wfq": 19538
+    },
+    "config16-med-high.xml": {
+      "ff": 3749,
+      "bf": 5328,
+      "ffq": 6123,
+      "bfq": 5494,
+      "wfq": 23740
+    },
+    "config16-short-high.xml": {
+      "ff": 3215,
+      "bf": 8260,
+      "ffq": 5517,
+      "bfq": 4369,
+      "wfq": 24814
+    },
+    "config16-short-med.xml": {
+      "ff": 699,
+      "bf": 851,
+      "ffq": 1952,
+      "bfq": 1972,
+      "wfq": 17139
+    },
+    "config40-long-high.xml": {
+      "ff": 4506,
+      "bf": 4164,
+      "ffq": 3642,
+      "bfq": 3568,
+      "wfq": 8461
+    },
+    "config40-long-med.xml": {
+      "ff": 3553,
+      "bf": 3553,
+      "ffq": 3553,
+      "bfq": 3553,
+      "wfq": 5928
+    },
+    "config40-med-high.xml": {
+      "ff": 1505,
+      "bf": 896,
+      "ffq": 940,
+      "bfq": 933,
+      "wfq": 3097
+    },
+    "config40-med-med.xml": {
+      "ff": 941,
+      "bf": 941,
+      "ffq": 941,
+      "bfq": 941,
+      "wfq": 1988
+    },
+    "config40-short-high.xml": {
+      "ff": 485,
+      "bf": 1365,
+      "ffq": 373,
+      "bfq": 301,
+      "wfq": 2817
+    },
+    "config40-short-med.xml": {
+      "ff": 180,
+      "bf": 182,
+      "ffq": 198,
+      "bfq": 193,
+      "wfq": 1945
+    }
+  },
+  "Resource utilisation": {
+    "config12-long-med.xml": {
+      "ff": 69.39,
+      "bf": 66.87,
+      "ffq": 68.24,
+      "bfq": 66.45,
+      "wfq": 79.22
+    },
+    "config12-med-alt.xml": {
+      "ff": 66.93,
+      "bf": 63.88,
+      "ffq": 66.46,
+      "bfq": 63.39,
+      "wfq": 49.55
+    },
+    "config12-med-med.xml": {
+      "ff": 66.22,
+      "bf": 63.06,
+      "ffq": 65.92,
+      "bfq": 62.68,
+      "wfq": 71.52
+    },
+    "config12-short-med.xml": {
+      "ff": 61.56,
+      "bf": 58.46,
+      "ffq": 61.32,
+      "bfq": 58.18,
+      "wfq": 61.48
+    },
+    "config16-long-high.xml": {
+      "ff": 79.97,
+      "bf": 74.7,
+      "ffq": 77.7,
+      "bfq": 74.06,
+      "wfq": 66.17
+    },
+    "config16-long-med.xml": {
+      "ff": 68.16,
+      "bf": 64.71,
+      "ffq": 67.59,
+      "bfq": 63.86,
+      "wfq": 65.06
+    },
+    "config16-med-high.xml": {
+      "ff": 77.45,
+      "bf": 73.06,
+      "ffq": 76.1,
+      "bfq": 73.14,
+      "wfq": 48.18
+    },
+    "config16-short-high.xml": {
+      "ff": 76.88,
+      "bf": 71.21,
+      "ffq": 74.44,
+      "bfq": 70.87,
+      "wfq": 50.94
+    },
+    "config16-short-med.xml": {
+      "ff": 66.22,
+      "bf": 62.42,
+      "ffq": 65.54,
+      "bfq": 62.08,
+      "wfq": 61.4
+    },
+    "config40-long-high.xml": {
+      "ff": 85.81,
+      "bf": 80.91,
+      "ffq": 86.34,
+      "bfq": 81.81,
+      "wfq": 79.46
+    },
+    "config40-long-med.xml": {
+      "ff": 72.16,
+      "bf": 67.37,
+      "ffq": 72.16,
+      "bfq": 67.37,
+      "wfq": 76.71
+    },
+    "config40-med-high.xml": {
+      "ff": 83.01,
+      "bf": 79.51,
+      "ffq": 83.87,
+      "bfq": 79.32,
+      "wfq": 67.73
+    },
+    "config40-med-med.xml": {
+      "ff": 72.77,
+      "bf": 65.83,
+      "ffq": 72.77,
+      "bfq": 65.83,
+      "wfq": 79.25
+    },
+    "config40-short-high.xml": {
+      "ff": 86.54,
+      "bf": 79.64,
+      "ffq": 86.68,
+      "bfq": 80.98,
+      "wfq": 78.09
+    },
+    "config40-short-med.xml": {
+      "ff": 77.23,
+      "bf": 71.66,
+      "ffq": 77.18,
+      "bfq": 71.68,
+      "wfq": 87.92
+    }
+  },
+  "Total rental cost": {
+    "config12-long-med.xml": {
+      "ff": 131.37,
+      "bf": 131.75,
+      "ffq": 136.01,
+      "bfq": 133.2,
+      "wfq": 132.04
+    },
+    "config12-med-alt.xml": {
+      "ff": 113.25,
+      "bf": 113.19,
+      "ffq": 115.75,
+      "bfq": 115.21,
+      "wfq": 118.77
+    },
+    "config12-med-med.xml": {
+      "ff": 132.82,
+      "bf": 133.01,
+      "ffq": 134.87,
+      "bfq": 134.6,
+      "wfq": 129.86
+    },
+    "config12-short-med.xml": {
+      "ff": 21.5,
+      "bf": 21.49,
+      "ffq": 21.68,
+      "bfq": 21.68,
+      "wfq": 21.0
+    },
+    "config16-long-high.xml": {
+      "ff": 589.16,
+      "bf": 596.1,
+      "ffq": 632.23,
+      "bfq": 632.18,
+      "wfq": 653.3
+    },
+    "config16-long-med.xml": {
+      "ff": 581.93,
+      "bf": 581.49,
+      "ffq": 600.44,
+      "bfq": 599.28,
+      "wfq": 580.79
+    },
+    "config16-med-high.xml": {
+      "ff": 598.42,
+      "bf": 598.83,
+      "ffq": 632.22,
+      "bfq": 617.53,
+      "wfq": 696.2
+    },
+    "config16-short-high.xml": {
+      "ff": 594.1,
+      "bf": 612.4,
+      "ffq": 635.48,
+      "bfq": 626.12,
+      "wfq": 674.29
+    },
+    "config16-short-med.xml": {
+      "ff": 579.43,
+      "bf": 578.62,
+      "ffq": 592.54,
+      "bfq": 590.29,
+      "wfq": 587.31
+    },
+    "config40-long-high.xml": {
+      "ff": 1244.09,
+      "bf": 1236.91,
+      "ffq": 1250.35,
+      "bfq": 1239.58,
+      "wfq": 1297.0
+    },
+    "config40-long-med.xml": {
+      "ff": 1025.57,
+      "bf": 967.53,
+      "ffq": 1025.57,
+      "bfq": 967.53,
+      "wfq": 1038.16
+    },
+    "config40-med-high.xml": {
+      "ff": 614.35,
+      "bf": 602.11,
+      "ffq": 605.53,
+      "bfq": 605.93,
+      "wfq": 657.5
+    },
+    "config40-med-med.xml": {
+      "ff": 482.74,
+      "bf": 498.49,
+      "ffq": 482.74,
+      "bfq": 498.49,
+      "wfq": 519.24
+    },
+    "config40-short-high.xml": {
+      "ff": 600.37,
+      "bf": 612.79,
+      "ffq": 601.77,
+      "bfq": 597.96,
+      "wfq": 655.3
+    },
+    "config40-short-med.xml": {
+      "ff": 586.94,
+      "bf": 587.55,
+      "ffq": 592.51,
+      "bfq": 588.6,
+      "wfq": 566.19
+    }
+  }
+}
