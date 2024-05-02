@@ -11,6 +11,6 @@ In my study of Distributed Systems, I traditionally understood it as a group of 
 - [Virtual Box](https://www.virtualbox.org/wiki/Downloads)
 - [Ubuntu 22.0.4 LTS Image](https://www.releases.ubuntu.com/22.04/)
 
-  
+  **Stage 1 and 2**
 
-
+I submitted two major assignments where I had to design and implement parallel and distributed software systems. I designed specific steps as either milestones, stages, or practical tasks.
