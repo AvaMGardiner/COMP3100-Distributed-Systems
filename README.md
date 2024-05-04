@@ -9,7 +9,7 @@ In my study of Distributed Systems, I traditionally understood it as a group of 
 - [Oracle VM Virtual Box](https://www.virtualbox.org/wiki/Downloads)
 - [Ubuntu 22.0.4 LTS Image](https://www.releases.ubuntu.com/22.04/)
 - [Java SE](https://www.oracle.com/java/technologies/downloads/)
-- [Eclipse](https://www.eclipse.org/downloads/) and [Visual Studio Code](https://code.visualstudio.com/download)
+- [Visual Studio Code](https://code.visualstudio.com/download)
 
 **Major Assignments**
 
