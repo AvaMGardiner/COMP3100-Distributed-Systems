@@ -1,4 +1,4 @@
-# COMP3100: Distributed Systems/COMP6105 Distributed Systems
+# COMP3100: Distributed Systems
 
 **Overview**
 
