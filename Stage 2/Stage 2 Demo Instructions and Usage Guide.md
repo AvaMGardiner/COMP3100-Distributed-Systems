@@ -1,3 +1,5 @@
+# Stage 2 Demo Instructions and Usage Guide
+
 Usage: python3 ./s2_demo.py "command to run your algorithm" [-n]
 
 For instance, 
