@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- system information generated for ds-sim@MQ, 28-Feb, 2023 @ MQ - client-server -->
+<system>
+	<servers>
+		<server type="tiny" limit="7" bootupTime="60" hourlyRate="0.10" cores="1" memory="1000" disk="4000" />
+		<server type="small" limit="30" bootupTime="60" hourlyRate="0.20" cores="2" memory="6000" disk="16000" />
+		<server type="medium" limit="30" bootupTime="60" hourlyRate="0.40" cores="4" memory="20000" disk="64000" />
+		<server type="large" limit="30" bootupTime="60" hourlyRate="0.80" cores="8" memory="200000" disk="256000" />
+		<server type="xlarge" limit="20" bootupTime="60" hourlyRate="1.60" cores="16" memory="448000" disk="512000" />
+		<server type="2xlarge" limit="20" bootupTime="60" hourlyRate="3.20" cores="32" memory="288000" disk="1024000" />
+		<server type="3xlarge" limit="40" bootupTime="60" hourlyRate="6.40" cores="64" memory="512000" disk="2048000" />
+		<server type="4xlarge" limit="7" bootupTime="60" hourlyRate="12.80" cores="128" memory="1792000" disk="4096000" />
+	</servers>
+</system>
