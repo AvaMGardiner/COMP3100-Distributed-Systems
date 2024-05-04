@@ -6,10 +6,10 @@ In my study of Distributed Systems, I traditionally understood it as a group of 
 
 **Technology Used**
 
-- [Java SE](https://www.oracle.com/java/technologies/downloads/) - Download the latest Java SE to be compatible with the labs.
-- [Eclipse](https://www.eclipse.org/downloads/) and [Visual Studio Code](https://code.visualstudio.com/download) - The IDEs we shall be using during the session.
 - [Oracle VM Virtual Box](https://www.virtualbox.org/wiki/Downloads)
 - [Ubuntu 22.0.4 LTS Image](https://www.releases.ubuntu.com/22.04/)
+- [Java SE](https://www.oracle.com/java/technologies/downloads/)
+- [Eclipse](https://www.eclipse.org/downloads/) and [Visual Studio Code](https://code.visualstudio.com/download)
 
 **Major Assignments**
 
