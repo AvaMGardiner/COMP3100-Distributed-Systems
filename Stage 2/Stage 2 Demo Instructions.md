@@ -1,4 +1,4 @@
-# Stage 2 Demo Instructions
+# Stage 2: Demo Instructions
 
 Usage: python3 ./s2_demo.py "command to run your algorithm" [-n]
 
