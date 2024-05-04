@@ -1,3 +1,5 @@
+# Stage 1: Demo Instructions
+
 Usage:
 
 ./demoS1.sh [Java specific argument...] [-n] your_client.class [your client specific argument...]
