@@ -11,10 +11,12 @@ In my study of Distributed Systems, I traditionally understood it as a group of 
 - [Oracle VM Virtual Box](https://www.virtualbox.org/wiki/Downloads)
 - [Ubuntu 22.0.4 LTS Image](https://www.releases.ubuntu.com/22.04/)
 
-**Stage 1**
+**Major Assignments**
+
+- **Stage 1**
 
 In the first stage, I designed and implemented a basic version of a client-side simulator. This included fundamental scheduling features and a simple job dispatcher.
 
-**Stage 2**
+- **Stage 2**
 
 In the second stage, I designed and implemented a new scheduling algorithm. This was evaluated against a set of baseline algorithms, which included First-Fit (FF), Best-Fit (BF), and Worst-Fit (WF).
