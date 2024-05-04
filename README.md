@@ -8,7 +8,7 @@ In my study of Distributed Systems, I traditionally understood it as a group of 
 
 - [Java SE](https://www.oracle.com/java/technologies/downloads/) - Download the latest Java SE to be compatible with the labs.
 - [Eclipse](https://www.eclipse.org/downloads/) and [Visual Studio Code](https://code.visualstudio.com/download) - The IDEs we shall be using during the session.
-- [Virtual Box](https://www.virtualbox.org/wiki/Downloads)
+- [Oracle VM Virtual Box](https://www.virtualbox.org/wiki/Downloads)
 - [Ubuntu 22.0.4 LTS Image](https://www.releases.ubuntu.com/22.04/)
 
   **Stage 1 and 2**
