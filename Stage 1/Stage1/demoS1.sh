@@ -1,9 +1,10 @@
 #!/bin/bash
 # make sure you have your client and ds-sim (ds-server and ds-client) all in the same directory and test configuration files in configs directory 
 # to kill multiple runaway processes, use 'pkill runaway_process_name'
-# For the Java implementation, use the following format: ./S1Tests-wk6.sh [Java specific arugment...] [-n] your_client.class [your client specific argument...]
-configDir="./S1testConfigs"
+# For the Java implementation, use the following format: ./demoS1Final.sh [Java specific arugment...] [-n] your_client.class [your client specific argument...]
+configDir="./S1DemoConfigs"
 diffLog="stage1.diff"
+resultSummary="S1DemoSummary.txt"
 
 if [[ ! -d $configDir ]]; then
 	echo "No $configDir found!"
@@ -11,6 +12,7 @@ if [[ ! -d $configDir ]]; then
 fi
 
 if [[ -f $configDir/$diffLog ]]; then
+	rm $configDir/$resultSummary
 	rm $configDir/*-log.txt
 	rm $configDir/log-diff.txt
 	rm $configDir/$diffLog
@@ -65,7 +67,7 @@ for arg in $args; do
 done
 
 if [[ ! -f $yourClient ]]; then
-	echo "No $1 found!"
+	echo "No $yourClient found!"
 fi
 
 for conf in $configDir/*.xml; do
@@ -96,15 +98,22 @@ for conf in $configDir/*.xml; do
 	diff $conf-ref-log.txt $conf-my-log.txt > $configDir/log-diff.txt
 	if [[ -s $configDir/log-diff.txt ]]; then
 		echo NOT PASSED!
+		echo "$conf: NOT PASSED!" >> $configDir/$resultSummary
 	elif [ `wc -c < $conf-ref-log.txt` -eq 0 -a `wc -c < $conf-my-log.txt` -eq 0 ]; then
 		echo "NOT PASSED (no log files)!"
+		echo "$conf: NOT PASSED (no log files)!" >> $configDir/$resultSummary
 	else
 		echo PASSED!
+		echo "$conf: PASSED!" >> $configDir/$resultSummary
 	fi
 	echo ============
 	sleep 1
 	cat $configDir/log-diff.txt >> $configDir/$diffLog
 done
-
+echo
+echo "******************* [ SUMMARY ] *******************"
+cat $configDir/$resultSummary
+echo "***************************************************"
+echo
 echo "testing done! check $configDir/$diffLog"
 
